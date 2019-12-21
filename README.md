@@ -41,10 +41,10 @@ Results are returned in the following object:
 }
 ```
 
-### Author
+## Author
 
 This project was developed by [Gvozden Despotovski](https://github.com/dsheedes/ "Gvozden Despotovski").
 
-### License
+## License
 
 This project is licensed under the MIT License - see the LICENSE.md file for details
