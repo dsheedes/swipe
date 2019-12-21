@@ -1,10 +1,15 @@
 # Swipe - a lightweight jQuery plugin
 
 This is a lightweight jQuery plugin that allows you to monitor user swipes. 
+
 ## Getting started
+
 ###Prerequisites
+
 This plugin requires the latest version of jQuery
+
 ###Usage
+
 Include above `</body>` tag, but below jQuery include script tags.
 ```html
 <script src="js/swipe.js"></script>
@@ -35,8 +40,11 @@ Results are returned in the following object:
 	left:true/false,
 }
 ```
+
 ##Author
+
 This project was developed by [Gvozden Despotovski](https://github.com/dsheedes/ "Gvozden Despotovski").
 
 ##License
+
 This project is licensed under the MIT License - see the LICENSE.md file for details
