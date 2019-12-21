@@ -4,11 +4,11 @@ This is a lightweight jQuery plugin that allows you to monitor user swipes.
 
 ## Getting started
 
-###Prerequisites
+### Prerequisites
 
 This plugin requires the latest version of jQuery
 
-###Usage
+### Usage
 
 Include above `</body>` tag, but below jQuery include script tags.
 ```html
@@ -41,10 +41,10 @@ Results are returned in the following object:
 }
 ```
 
-##Author
+### Author
 
 This project was developed by [Gvozden Despotovski](https://github.com/dsheedes/ "Gvozden Despotovski").
 
-##License
+### License
 
 This project is licensed under the MIT License - see the LICENSE.md file for details
