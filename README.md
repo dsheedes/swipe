@@ -32,12 +32,12 @@ onSwipe(function(result), timeTreshold, tresholdX, tresholdY);
 ***tresholdY*** - A treshold below which swipes will not register on the vertical axis. (px)
 
 Results are returned in the following object:
-```json
+```javascript
 {
-	up:true/false
-	right:true/false,
-	down:true/false,
-	left:true/false,
+	up:true or false,
+	right:true or false,
+	down:true or false,
+	left:true or false,
 }
 ```
 
