@@ -29,6 +29,7 @@ onSwipe(function(result), timeTreshold, tresholdX, tresholdY);
 ***timeTreshold*** - A treshold below which swipes will not register. (ms)
 
 ***tresholdX*** - A treshold below which swipes will not register on the horizontal axis. (px) 
+
 ***tresholdY*** - A treshold below which swipes will not register on the vertical axis. (px)
 
 Results are returned in the following object:
