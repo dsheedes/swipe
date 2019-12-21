@@ -26,11 +26,11 @@ onSwipe(function(result), timeTreshold, tresholdX, tresholdY);
 
 **function(result)** - Required! A function that will handle results of swiping
 
-***timeTreshold*** - A treshold below which swipes will not register. (ms)
+***timeTreshold*** - A treshold below which swipes will not register. (ms) *Not required, default 100ms*
 
-***tresholdX*** - A treshold below which swipes will not register on the horizontal axis. (px) 
+***tresholdX*** - A treshold below which swipes will not register on the horizontal axis. (px) *Not required, default 30px.*
 
-***tresholdY*** - A treshold below which swipes will not register on the vertical axis. (px)
+***tresholdY*** - A treshold below which swipes will not register on the vertical axis. (px) *Not required, default 30px.*
 
 Results are returned in the following object:
 ```javascript
