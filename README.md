@@ -1,6 +1,6 @@
 # Swipe - a lightweight jQuery plugin
 
-This is a lightweight jQuery plugin that allows you to monitor user swipes. 
+This is a lightweight jQuery plugin that allows you to handle user swipes. 
 
 ## Getting started
 
