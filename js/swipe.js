@@ -27,17 +27,18 @@
         if(typeof tresholdY === 'undefined' || tresholdY === null)
             tresholdY = 30;//px
 
-        var startX,  startY;
-        var endX, endY;
+        var startX,  startY; //Position when touch begins
+        var endX, endY; //Position when touch ends
 
-        var time;
-        var totalTime = 0;
+        var time; //Our timer variable
+        var totalTime = 0; //Total time that the swipe took
+
         //When a touch starts on this element.
             //We can start a timer, and start getting coordinates.
         $(this).on("touchstart", function(e){
 
             //Let's get our touch coordinates
-            startX = e.touches[0].clientX;
+            startX = e.touches[0].clientX; //This is where touchstart coordinates are stored
             startY = e.touches[0].clientY;
 
             time = setInterval(function(){ //Let's see how long the swipe lasts.
@@ -60,5 +61,7 @@
             totalTime = 0;
         });
         } else console.error("You need to pass a function in order to process swipe data.");
+
+        return $(this);
     }
 })( jQuery );
